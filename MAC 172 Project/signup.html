@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+	</head>
+	<body>
+		<header><h1><a href="login.html">Login</a></h1><h1><a href="home.html">Home</a></h1><h1><a href="cart.html">Cart</a></h1><h1><a href="signup.html">Sign Up</a></h1></header>
+		<hr>
+			<div class="center-form">
+				<form name="iform" method="post" onsubmit="return signUp()">
+					<h1>Sign Up</h1>
+					<br>
+					<input name="first" type="text" id="first" placeholder="First Name">
+					<br>
+					<input name="last" type="text" id="last" placeholder="Last Name">
+					<br>
+					<input name="email" type="text" placeholder="Email">
+					<br>
+					<input name="password" type="password" placeholder="Password">
+					<br>
+					<input name="repassword" type="password" placeholder="Confirm Password">
+					<br>
+					<button type="reset">Reset</button>
+					<button onclick="signUp()">Submit</button>
+				</form>
+					
+					
+			</div>
+	</body>
+</html>
