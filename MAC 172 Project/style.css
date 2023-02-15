@@ -1,8 +1,6 @@
 body {
 	background: #222222;
 	margin: 0;
-	padding: 0;
-	height: 100vh;
 }
 
 header {
@@ -17,11 +15,11 @@ hr {
 a {
 	text-decoration: none;
 	padding: 5px;
-	color: #CD7F32;
+	color: white;
 }
 
 a:hover{
-	color: white;
+	color: #CD7F32;
 }
 
 .center-form {
@@ -52,8 +50,8 @@ button, #reset  {
 	border-radius: 15px;
 }
 
- *{
-	box-sizing: border-box;
+* {
+	box-sizing: border
  }
  
 .mySlides2 {
@@ -70,6 +68,7 @@ img {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background: #CD7F32;
 }
  .prev, .next {
   cursor: pointer;
@@ -109,12 +108,18 @@ text-align: center;
 }
 /*the attribute selection is very nice because when you click the and press it it's gonna change.*/
 
+
+
+
+
+/* This is for the cart.html */
 .Cart-Container {
-	width: 50%;
-	height: 80%;
+	width: 60%;
+	height: 85%;
 	background-color: #CD7F32;
 	border-radius: 20px;
 	box-shadow: 0px 25px 40px #1687d933;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -126,6 +131,7 @@ text-align: center;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	
 }
 
 .Heading {
@@ -213,6 +219,7 @@ text-align: center;
 .prices {
 	height: 100%;
 	text-align: right;
+	display: block;
 }
 .amount {
 	padding-top: 20px;
@@ -239,16 +246,13 @@ text-align: center;
 }
 
 .checkout {
-	float: right;
-	margin-right: 5%;
 	width: 28%;
+	display: block;
+	margin-top: 500px;
 }
 
 .total {
 	width: 100%;
-	display: flex;
-	justify-content: space-between;
-
 }
 .Subtotal {
 	font-size: 22px;
@@ -281,4 +285,11 @@ text-align: center;
 	font-family: 'Open Sans';
 	font-weight: 600;
 	color: #202020;
+}
+
+/*Home Section */
+#home-title > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

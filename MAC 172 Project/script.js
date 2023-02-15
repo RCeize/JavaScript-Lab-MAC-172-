@@ -5,6 +5,7 @@ function signUp(){
 	var Password = document.iform.password.value;
 	var Repassword = document.iform.repassword.value;
 	
+	
 	if(Password == Repassword) {
 		console.log("Password is a match");
 	}
