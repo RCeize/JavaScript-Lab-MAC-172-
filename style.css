@@ -323,6 +323,11 @@ div.maps{
 	text-align: center;
   }
 /* Menu Page */
+header {
+	display: flex;
+	justify-content: space-around;	
+}
+
 a {
 	text-decoration: none;
 	padding: 5px;
@@ -346,3 +351,24 @@ div.menuimage{
 	margin-right: auto;
 	display: block;
 }
+/*Career */
+h1.title{
+	font-size: 60px;
+	color:white;
+  }
+  .centered {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  img.headerimage {
+	-webkit-filter: blur(2px); 
+	filter: blur(1px);
+	margin: auto;
+  }
+  p{
+	text-align: center;
+	color: white;
+  }
